@@ -9,11 +9,20 @@ public class Calculator {
 	{
 		System.out.println(a-b);
 	}
-
+	public void mul(int a, int b)
+	{
+		System.out.println(a*b);
+	}
+	public void div(int a, int b)
+	{
+		System.out.println(a/b);
+	}
 	public static void main(String[] args) {
 		
 		Calculator ob = new Calculator();
 		ob.sum(10, 5);
 		ob.diff(10, 5);
+		ob.mul(10, 5);
+		ob.div(10, 5);
 	}
 }
